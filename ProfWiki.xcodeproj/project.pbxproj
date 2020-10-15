@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E38DC7B725367426009284F0 /* ProfWikiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38DC7B625367426009284F0 /* ProfWikiApp.swift */; };
+		E38DC7B925367426009284F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38DC7B825367426009284F0 /* ContentView.swift */; };
+		E38DC7BB25367429009284F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E38DC7BA25367429009284F0 /* Assets.xcassets */; };
+		E38DC7BE25367429009284F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E38DC7BD25367429009284F0 /* Preview Assets.xcassets */; };
+		E38DC7C7253674C2009284F0 /* ProfessorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38DC7C6253674C2009284F0 /* ProfessorService.swift */; };
+		E38DC7CA2536761B009284F0 /* Professor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38DC7C92536761B009284F0 /* Professor.swift */; };
+		E38DC7CF25367834009284F0 /* ProfessorCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38DC7CE25367834009284F0 /* ProfessorCellView.swift */; };
+		E38DC7DD25368821009284F0 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38DC7DC25368821009284F0 /* ImageLoader.swift */; };
+		E38DC7E1253698B2009284F0 /* ProfessorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38DC7E0253698B2009284F0 /* ProfessorDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E38DC7B325367426009284F0 /* ProfWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProfWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E38DC7B625367426009284F0 /* ProfWikiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfWikiApp.swift; sourceTree = "<group>"; };
+		E38DC7B825367426009284F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E38DC7BA25367429009284F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E38DC7BD25367429009284F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E38DC7BF25367429009284F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E38DC7C6253674C2009284F0 /* ProfessorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorService.swift; sourceTree = "<group>"; };
+		E38DC7C92536761B009284F0 /* Professor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Professor.swift; sourceTree = "<group>"; };
+		E38DC7CE25367834009284F0 /* ProfessorCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorCellView.swift; sourceTree = "<group>"; };
+		E38DC7DC25368821009284F0 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		E38DC7E0253698B2009284F0 /* ProfessorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E38DC7B025367426009284F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E38DC7AA25367426009284F0 = {
+			isa = PBXGroup;
+			children = (
+				E38DC7B525367426009284F0 /* ProfWiki */,
+				E38DC7B425367426009284F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E38DC7B425367426009284F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E38DC7B325367426009284F0 /* ProfWiki.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E38DC7B525367426009284F0 /* ProfWiki */ = {
+			isa = PBXGroup;
+			children = (
+				E38DC7B625367426009284F0 /* ProfWikiApp.swift */,
+				E38DC7B825367426009284F0 /* ContentView.swift */,
+				E38DC7CE25367834009284F0 /* ProfessorCellView.swift */,
+				E38DC7C6253674C2009284F0 /* ProfessorService.swift */,
+				E38DC7E0253698B2009284F0 /* ProfessorDetailView.swift */,
+				E38DC7DC25368821009284F0 /* ImageLoader.swift */,
+				E38DC7C92536761B009284F0 /* Professor.swift */,
+				E38DC7BA25367429009284F0 /* Assets.xcassets */,
+				E38DC7BF25367429009284F0 /* Info.plist */,
+				E38DC7BC25367429009284F0 /* Preview Content */,
+			);
+			path = ProfWiki;
+			sourceTree = "<group>";
+		};
+		E38DC7BC25367429009284F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E38DC7BD25367429009284F0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E38DC7B225367426009284F0 /* ProfWiki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E38DC7C225367429009284F0 /* Build configuration list for PBXNativeTarget "ProfWiki" */;
+			buildPhases = (
+				E38DC7AF25367426009284F0 /* Sources */,
+				E38DC7B025367426009284F0 /* Frameworks */,
+				E38DC7B125367426009284F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProfWiki;
+			productName = ProfWiki;
+			productReference = E38DC7B325367426009284F0 /* ProfWiki.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E38DC7AB25367426009284F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					E38DC7B225367426009284F0 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = E38DC7AE25367426009284F0 /* Build configuration list for PBXProject "ProfWiki" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E38DC7AA25367426009284F0;
+			productRefGroup = E38DC7B425367426009284F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E38DC7B225367426009284F0 /* ProfWiki */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E38DC7B125367426009284F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38DC7BE25367429009284F0 /* Preview Assets.xcassets in Resources */,
+				E38DC7BB25367429009284F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E38DC7AF25367426009284F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38DC7CF25367834009284F0 /* ProfessorCellView.swift in Sources */,
+				E38DC7E1253698B2009284F0 /* ProfessorDetailView.swift in Sources */,
+				E38DC7C7253674C2009284F0 /* ProfessorService.swift in Sources */,
+				E38DC7DD25368821009284F0 /* ImageLoader.swift in Sources */,
+				E38DC7CA2536761B009284F0 /* Professor.swift in Sources */,
+				E38DC7B925367426009284F0 /* ContentView.swift in Sources */,
+				E38DC7B725367426009284F0 /* ProfWikiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E38DC7C025367429009284F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E38DC7C125367429009284F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E38DC7C325367429009284F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ProfWiki/Preview Content\"";
+				DEVELOPMENT_TEAM = 58S676664G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ProfWiki/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosclub.ProfWiki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E38DC7C425367429009284F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ProfWiki/Preview Content\"";
+				DEVELOPMENT_TEAM = 58S676664G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ProfWiki/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosclub.ProfWiki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E38DC7AE25367426009284F0 /* Build configuration list for PBXProject "ProfWiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E38DC7C025367429009284F0 /* Debug */,
+				E38DC7C125367429009284F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E38DC7C225367429009284F0 /* Build configuration list for PBXNativeTarget "ProfWiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E38DC7C325367429009284F0 /* Debug */,
+				E38DC7C425367429009284F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E38DC7AB25367426009284F0 /* Project object */;
+}
